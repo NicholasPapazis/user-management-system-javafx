@@ -36,7 +36,7 @@
             <VBox fx:id="leftPane" prefHeight="374.0" prefWidth="144.0" />
             <TableView prefHeight="374.0" prefWidth="386.0">
               <columns>
-                <TableColumn editable="false" prefWidth="39.20001298189163" style="-fx-text-fill: white; -fx-alignment: center-left;" styleClass="tableHeader" text="ID" />
+                <TableColumn editable="false" prefWidth="39.20001298189163" styleClass="tableHeader" text="ID" />
                 <TableColumn editable="false" prefWidth="86.39995956420898" styleClass="tableHeader" text="First Name" />
                   <TableColumn editable="false" prefWidth="79.19993591308594" styleClass="tableHeader" text="Last Name" />
                   <TableColumn editable="false" prefWidth="97.60005187988281" styleClass="tableHeader" text="Department" />
@@ -44,37 +44,32 @@
             </TableView>
             <VBox fx:id="rightPane" prefHeight="374.0" prefWidth="200.0">
                <children>
-                  <TextField>
+                  <TextField promptText="First Name">
                      <VBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </VBox.margin>
                   </TextField>
-                  <TextField>
+                  <TextField promptText="Last Name">
                      <VBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </VBox.margin>
                   </TextField>
-                  <TextField>
+                  <TextField promptText="Department">
                      <VBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </VBox.margin>
                   </TextField>
-                  <TextField>
+                  <TextField promptText="Major">
                      <VBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </VBox.margin>
                   </TextField>
-                  <TextField>
+                  <TextField promptText="Email">
                      <VBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </VBox.margin>
                   </TextField>
-                  <TextField>
-                     <VBox.margin>
-                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-                     </VBox.margin>
-                  </TextField>
-                  <TextField>
+                  <TextField promptText="Image URL">
                      <VBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </VBox.margin>

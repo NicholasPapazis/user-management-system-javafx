@@ -1,3 +1,10 @@
+Shape {
+    -fx-fill: white;
+    -fx-font-size: 12px;
+    -fx-text-alignment: left;
+
+}
+
 #leftPane{
     -fx-background-color: #bc7533;
 }
@@ -7,10 +14,14 @@
 
 /*these styles */
 .tableHeader {
-    -fx-text-fill: white;
+    -fx-fill: white;
     -fx-alignment: center-left;
 }
 
-TableView{
-    -fx-text-fill: white;
+table-cell .tableHeader {
+    -fx-fill: white;
+}
+
+.table-column {
+    -fx-alignment: LEFT;
 }
