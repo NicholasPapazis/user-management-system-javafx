@@ -1,0 +1,16 @@
+#leftPane{
+    -fx-background-color: #bc7533;
+}
+#rightPane{
+    -fx-background-color: #73ea11;
+}
+
+/*these styles */
+.tableHeader {
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+}
+
+TableView{
+    -fx-text-fill: white;
+}

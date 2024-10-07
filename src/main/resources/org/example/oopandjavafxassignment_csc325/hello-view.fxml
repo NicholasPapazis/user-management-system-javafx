@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c78523" height="378.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a6ff00" height="378.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <TableView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn prefWidth="25.43749237060547" text="ID" />
+            <TableColumn prefWidth="82.70512390136719" text="First Name" />
+            <TableColumn prefWidth="73.37042236328125" text="Last Name" />
+            <TableColumn prefWidth="73.37042236328125" text="Department" />
+            <TableColumn prefWidth="73.37042236328125" text="Major" />
+        </columns>
+      </TableView>
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
