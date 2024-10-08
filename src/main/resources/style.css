@@ -1,9 +1,3 @@
-Shape {
-    -fx-fill: white;
-    -fx-font-size: 12px;
-    -fx-text-alignment: left;
-
-}
 
 #leftPane{
     -fx-background-color: #bc7533;
@@ -12,16 +6,34 @@ Shape {
     -fx-background-color: #73ea11;
 }
 
-/*these styles */
-.tableHeader {
-    -fx-fill: white;
-    -fx-alignment: center-left;
+.table-view {
+    -fx-background-color: white;
 }
 
-table-cell .tableHeader {
-    -fx-fill: white;
+.table-view .column-header-background .label {
+    -fx-font-size: 10px;
+
 }
 
-.table-column {
-    -fx-alignment: LEFT;
+#menubar {
+    -fx-background-color: #96441b;
+}
+
+#bottomBar{
+    -fx-fill: #b4b4b4;
+    -fx-stroke: transparent;
+}
+
+.input-fields {
+    -fx-max-height: 50;
+}
+
+#clearButton, #addButton, #deleteButton, #editButton{
+    -fx-background-color: #bc7533;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+#idColumn, firstNameColumn, lastNameColumn, departmentColumn, majorColumn, emailColumn {
+    -fx-text-alignment: LEFT;
 }
